@@ -1,6 +1,6 @@
 import json
 import requests
-import pandas as pd
+
 
 def getCurrentPCR(symbol):
     url = 'https://www.nseindia.com/api/option-chain-indices?symbol='+symbol
